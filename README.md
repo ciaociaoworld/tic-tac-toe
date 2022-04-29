@@ -6,6 +6,7 @@
 
 <h2>Plan</h2>
 Step1: What I need to do at first
+ 
 1. Think about the basic elements and bonus elements I need to add to this project.
 2. Find out which codes I may need to use and which codes are used to add these elements.
 3. Find out the difficult part I may face. Complete Flow Chart at first.
