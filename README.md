@@ -1,6 +1,2 @@
 <h1>Tic Tac Toe</h1>
-#Tic Tac Toe
-# means h1
-## is h2
-### is h3
-##tic
+<a href="https://ciaociaoworld.github.io/tic-tac-toe/">Click here to play the game</a>
