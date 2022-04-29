@@ -1,7 +1,6 @@
 <h1>Tic Tac Toe</h1>
 <a href="https://ciaociaoworld.github.io/tic-tac-toe/">Click here to play the game</a>
 
-
 <h2>Summary of Project</h2>
 
 <h2>Plan</h2>
