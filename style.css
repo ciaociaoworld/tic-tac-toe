@@ -1,0 +1,44 @@
+body {
+    margin:auto;
+    width: min-content;
+}
+
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.main {
+    margin: 200px auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+}
+
+.boxes {
+    border: 1px solid black;
+    width:100px;
+    height:100px;
+
+}
+
+.tool {
+    margin: 10px;
+}
+
+.cross {
+    border: 1px solid black;
+    width:100px;
+    height:100px;
+    background-color: blue;
+}
+
+.circle {
+    border: 1px solid black;
+    width:100px;
+    height:100px;
+    background-color: green;
+
+}
