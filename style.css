@@ -1,27 +1,38 @@
+@font-face {
+    font-family: 'Square Peg', cursive;
+    src: url("https://fonts.googleapis.com/css2?family=Square+Peg&display=swap");
+}
+
+
 body {
     margin:auto;
     width: min-content;
+    background-color: black
 }
 
 header {
     text-align: center;
     margin-top: 50px;
+    font-size: 50px;
+    font-family: 'Square Peg', cursive;
+    color: white;
 }
 
 
 .main {
-    margin: 200px auto;
+    margin: 70px auto 30px auto;
     display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
-    grid-template-rows: 33.3% 33.3% 33.3%;
-    max-width: 306px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    max-width: 300px;
+    background-size: 300px 300px;
+    position: relative;
+    background-image: url(./resource/xuxieban.png);
 }
-
 .boxes {
-    border: 1px solid black;
+    border: 1px;
     width:100px;
     height:100px;
-
 }
 
 .tool {
@@ -29,15 +40,54 @@ header {
 }
 
 .cross {
-    border: 1px solid black;
+    border: 1px;
     width:100px;
     height:100px;
-    background-color: blue;
+    font-family: 'Square Peg', cursive;
+    font-size: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
 }
 
 .circle {
-    border: 1px solid black;
+    border: 1px;
     width:100px;
     height:100px;
-    background-color: green;
+    font-size: 100px;
+    font-family: 'Square Peg', cursive;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+}
+
+article {
+    text-align: center;
+    margin-top: 10px;
+}
+
+button {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+.winner1 {
+    text-align: center;
+    color: white;
+    font-family: 'Square Peg', cursive;
+    font-size: 40px;
+}
+
+.winner2 {
+    text-align: center;
+    color: white;
+    font-family: 'Square Peg', cursive;
+    font-size: 35px;
+}
+
+embed {
+    display: none;
+}
+audio {
+    display: none;
 }

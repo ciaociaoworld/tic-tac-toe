@@ -2,10 +2,11 @@
 <a href="https://ciaociaoworld.github.io/tic-tac-toe/">Click here to play the game</a>
 
 <h2>Summary of Project</h2>
+This is a simple Tic Tac Toe games. Sticked with KISS(Keep It Simple Stupid) principles. Used if statement, for loop, DOM manipulation to complete this game
 
 <h2>Plan</h2>
 
-Step1: What I need to do at first stage
+Step1: Preparation
 
 1. Think about the basic elements and bonus elements I need to add to this project.
 
@@ -16,43 +17,26 @@ Step1: What I need to do at first stage
         
         1.2.1 use sample code blow:
 ```
-var parentBox = document.querySelector('section')
-
-parentBox.addEventListener('click', function(event) {
-    if(event.target.tagName === 'DIV') {
-        event.target.className = 'red'
-        //you need to create a Class and backroundColor is red
-    }
-    // below is becasue querySelectorAll is like array. so need to use for loop to measure if 3 boxes turned to red.
-    if(document.querySelectorAll('.red').length === 3) {
-        var allDivElements = document.querySelectorAll('div')
-        for(let i=0; i < allDivElements.length; i++) {
-            allDivElements[i].className = 'green'
-        }
-    }
-})
+if (box0.className === 'circle' && box1.className === 'circle' && box2.className === 'circle') {
+        winner1.textContent = "Congrats! Player 1 win!"
+        winner2.textContent = "Click REST button to continue!"
 ```
-        
-        1.2.2 As there are 9 boxes. Need to add this logic to each group of 3 boxes.
-
-        Note: Think about boxes contain boxes. array[i][i]
-
-2. Find out which codes I may need to use and which codes are used to add these elements.
-3. Find out the difficult part I may face. Complete Flow Chart at first.
-4. Image the final version of this project, think about what else functions should to be added.
+2. Find out the difficult part I may face. 
+    2.1 Add button sould effect
+    2.2 add different style alert button
+    2.3 set up perfect autoStart loop instead of clicking reset
+3. Image the final version of this project, think about what else functions should to be added.
 
 Step2: Complete basic coding
 
 1. Build simple html, CSS, and mainly focus on basic javascript 
-2. Test
-3. Add bonus elements to project
-4. Test
+2. Try to add difficult part to project
+
 
 Step3: Decoration
 
-1. Finding online sources for decorating
-2. complete Html and CSS
-3. Test
+1. Finding online sources including font family for decorating
+2. Complete Html and CSS
 
 Step4: What I learned
 
@@ -60,5 +44,8 @@ Step4: What I learned
 2. Record these new things and find out which part I am prond of.
 
 <h2>Cool Tech</h2>
+The cool tech I may say is the background image, I draw it by myself and use it as my game background.
 
 <h2>Lessons</h2>
+1. Do not waste so much time on higher level's coding
+2. Ask when you are stuck

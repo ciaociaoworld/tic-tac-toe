@@ -7,6 +7,9 @@
     <title>Tic Tac Toe</title>
     <link rel="stylesheet" href="./style.css">
     <script src="./main.js" defer></script>
+    <!-- font imprt 'Square Peg' -->
+    <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+    
 </head>
 
 <body>
@@ -15,6 +18,8 @@
     </header>
     
     <section>
+        <h3 class="winner1"></h3>
+        <h4 class="winner2"></h4>
         <div class="main">
             <div class="boxes" id="top0"></div>
             <div class="boxes" id="top1"></div>
@@ -26,11 +31,11 @@
             <div class="boxes" id="bot7"></div>
             <div class="boxes" id="bot8"></div>   
         </div> 
+        <article>
+            <div class="tools">
+                <button class="reset">reset</button>
+            </div>
+        </article>
     </section>
-    <article>
-        <div class="tools">
-            <button class="reset">reset</button>
-        </div>
-    </article>
 </body>
 </html>
