@@ -12,9 +12,9 @@ header {
 .main {
     margin: 200px auto;
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 33% 33% 33%;
-    max-width: 300px;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+    max-width: 306px;
 }
 
 .boxes {
@@ -40,5 +40,4 @@ header {
     width:100px;
     height:100px;
     background-color: green;
-
 }
